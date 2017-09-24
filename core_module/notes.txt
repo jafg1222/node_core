@@ -1,0 +1,5 @@
+---- Notas de NODEJS ----
+
+Plataforma basada en Google v8 (C++)
+
+Single Thread
