@@ -1,0 +1,14 @@
+{
+    "name": "core_module",
+    "version": "1.0.0",
+    "description": "NodeJs testing",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Jose Flores Garcia jafg1222@github",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.4"
+    }
+}
