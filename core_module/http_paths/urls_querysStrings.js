@@ -29,7 +29,7 @@ function webServer(req, res) {
     console.log(`path: ${ pathURL }, id: ${id}`)
 
     urls.forEach((pos) => {
-        if (pos.route == pathURL) {
+        if (pos.route == pathURL || pos.id == id) {
             res.writeHead(200, { 'Content-Type': 'text/html' });
             res.end(message + pos.output)
         }
